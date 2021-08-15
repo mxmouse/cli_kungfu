@@ -1,0 +1,54 @@
+#smattering of commands 
+cat <file> | cat input_file
+cat <file> | grep -i <search word> / cat input_file | grep -i kittens
+cat <file> >> <filename>.<file extension> / cat input_file >> output.txt
+touch 
+ls -alth
+ll
+rm / rm -r
+/usr/bin/rm 
+man
+htop
+locate
+find
+lscpu
+ps aux
+cp 
+mv
+history
+ifconfig
+pwd
+cd
+mkdir
+chmod 700 / 777 / 666
+chown 
+clear
+sudo su
+whoami
+hostname
+agropos
+curl
+wget
+fg
+bg
+<command> &
+tree -d
+which
+/dev/null
+uname -a
+jobs
+id
+sudo -l
+
+#editors
+nano (if emacs isn't avail this is my default -- probably bad but it's quick for me to use)
+emacs (preference)
+
+#. files
+.bash_history
+.bashrc #setting alises e.g. alias wabam ='cd /home/user/kungfu'
+
+#fun stuff 
+.bashrc 
+  if [ "$color_prompt" = yes ]; then
+      PS1='${debian_chroot:+($debian_chroot)}\[\033[36m\]\](ɔ◔‿◔ )ɔ ♥ '
