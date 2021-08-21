@@ -2,6 +2,7 @@
 cat <file> | cat input_file
 cat <file> | grep -i <search word> / cat input_file | grep -i kittens
 cat <file> >> <filename>.<file extension> / cat input_file >> output.txt
+ldd
 touch 
 ls -alth
 ll
