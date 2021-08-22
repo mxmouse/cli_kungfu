@@ -53,3 +53,6 @@ emacs (preference)
 .bashrc 
   if [ "$color_prompt" = yes ]; then
       PS1='${debian_chroot:+($debian_chroot)}\[\033[36m\]\](ɔ◔‿◔ )ɔ ♥ '
+
+#adv search
+grep --color=quto -rnw '/' -ie "KITTENS" --colors=always 2> /dev/null
