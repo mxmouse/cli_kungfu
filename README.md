@@ -1,4 +1,4 @@
-Cyber Aegis workshop
+**Cyber Aegis workshop
 
 # ⚡ Linux - Intro ⚡
 ![external-content duckduckgo com](https://media.giphy.com/media/Bak719jJB7mko/giphy.gif)
@@ -260,4 +260,4 @@ cut "delimieter" which is ":" and "field" 1
 * [History of linux](https://en.wikipedia.org/wiki/History_of_Linux)
 * [User Groups and Permissions in Linux](https://www.section.io/engineering-education/user-groups-and-permissions-linux/)
 * [Etc Passwd File](https://linuxize.com/post/etc-passwd-file/)
-* [Understanding the etc passwd file](https://www.geeksforgeeks.org/understanding-the-etc-passwd-file/)
+* [Understanding the etc passwd file](https://www.geeksforgeeks.org/understanding-the-etc-passwd-file/)**
