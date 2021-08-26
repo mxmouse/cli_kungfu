@@ -1,4 +1,3 @@
-**Cyber Aegis workshop
 
 # ⚡ Linux - Intro ⚡
 ![external-content duckduckgo com](https://media.giphy.com/media/Bak719jJB7mko/giphy.gif)
