@@ -1,5 +1,5 @@
 
-# ⚡ Linux - Intro ⚡
+# ⚡ Linux - Intro ⚡ d
 ![external-content duckduckgo com](https://media.giphy.com/media/Bak719jJB7mko/giphy.gif)
 ## Summary
 * [History](#history)
