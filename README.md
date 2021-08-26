@@ -1,5 +1,5 @@
 
-~~****# ⚡ GNU/Linux - Intro ⚡ 
+# ⚡ GNU/Linux - Intro ⚡ 
 ###Note from the author:
 I want to state I am a humble grunt in the world of ones and zeroes. Most of this information is referenced from documents listed at the bottom of this post. I have simply coalesced it here to be used as a quick reference for a beginner. I am by no means an expert and still consider myself very much a beginner -- especially with the more I learn. If I have written something that doesn’t seem correct, don’t hesitate to let me know. This is mostly a technical post but like many things, the technical can also be political. 
 
