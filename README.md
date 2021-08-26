@@ -1,20 +1,15 @@
 
 # ⚡ GNU/Linux - Intro ⚡ 
-### Note from the author:
-I want to state I am a humble grunt in the world of ones and zeroes. Most of this information is referenced from documents listed at the bottom of this post. I have simply coalesced it here to be used as a quick reference for a beginner. I am by no means an expert and still consider myself very much a beginner -- especially with the more I learn. If I have written something that doesn’t seem correct, don’t hesitate to let me know. This is mostly a technical post but like many things, the technical can also be political. 
-
-Additionally, this is written in my spare time. Therefore, you will definitely find gross acts of injustice done to the formal written English language. Spelling mistakes are just the beginning my friend. 
-
-Cheers,  
-Taos Mouse.
 
 ## Summary
+*[Author Note](note-from-the-author)
 * [History](#history)
   * [GNU/Linux](#history-of-gnu-linux)
 * [Shell](#history-of-the-shell)
 * [Root](#what-does-it-mean-to-have-root)
 * [What is the command line?](#what-is-command-line)
 * [User groups and Root](#user-groups-and-root)
+* [References](#references)
 
 ## HISTORY
 ---
@@ -202,8 +197,6 @@ This will return these permissiosn: ```-rwxrw-r-x```
 #### passwd
 `/etc/passwd` is a plain text-based database that contains information for all user accounts on the system. It is owned by root and has 644 permissions . The file can only be modified by root or users with sudo privileges and readable by all system users.
 
-
-
 #### What do you use passwd for? 
 * To see senstive files
 * As a regular user should only ever be able to see ```-rw-r--r--```
@@ -244,22 +237,6 @@ gfg: | x: | 1000: | 1000: | main user: | /home/gfg: | /usr/bin/zsh
 cuts all the junk out
 cut "delimieter" which is ":" and "field" 1
 
-
-## shadow
-### What is a shadow file? 
-
-###looking at /etc/passwd and /etc/shadow
-
-    take the contents of these files and put them into a file called "passwd" and "shadow"
-    Run: unshadow PASSWORD-FILE SHADOW-FILE
-        -copy the contents of the file to a new file
-        -save the root and user information
-        -need identify the hashing types
-        -go to google and look up "hashcat has types"
-        -https://hashcat.net/wiki/doku.php?id=example_hashes
-    Put through the haschat text
-
-
 ## REFERENCES
 ---
 * [Richard Stallmans on why software should be free](https://www.gnu.org/philosophy/shouldbefree.en.html)
@@ -267,4 +244,12 @@ cut "delimieter" which is ":" and "field" 1
 * [History of linux](https://en.wikipedia.org/wiki/History_of_Linux)
 * [User Groups and Permissions in Linux](https://www.section.io/engineering-education/user-groups-and-permissions-linux/)
 * [Etc Passwd File](https://linuxize.com/post/etc-passwd-file/)
-* [Understanding the etc passwd file](https://www.geeksforgeeks.org/understanding-the-etc-passwd-file/)**~~****
+* [Understanding the etc passwd file](https://www.geeksforgeeks.org/understanding-the-etc-passwd-file/)
+
+## Note from the author:
+I want to state I am a humble grunt in the world of ones and zeroes. Most of this information is referenced from documents listed at the bottom of this post. I have simply coalesced it here to be used as a quick reference for a beginner. I am by no means an expert and still consider myself very much a beginner -- especially with the more I learn. If I have written something that doesn’t seem correct, don’t hesitate to let me know. This is mostly a technical post but like many things, the technical can also be political. 
+
+Additionally, this is written in my spare time. Therefore, you will definitely find gross acts of injustice done to the formal written English language. Spelling mistakes are just the beginning my friend. 
+
+Cheers,  
+Taos Mouse.
