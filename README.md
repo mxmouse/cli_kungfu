@@ -27,7 +27,9 @@ Before we jump into the more technical aspects, I wanted to highlight an impress
 Richard Stallman, the mind behind GNU/Linux began development in 1983. He was motivated by the notion of “free software”. He believed that technologists, or “programmers, need to share, redistribute, study and improve the software we write.” As we have moved into 2021 and still in the depths of Covid, a debate around open source and proprietary has become more tense. It’s the work of individuals like Stallman, that make it possible for users like myself to have some technological empowerment and not to be at the mercy of a corporation. I highly recommend reading Stallman's [philosophy](https://www.gnu.org/philosophy/shouldbefree.en.html) which is really a manifesto of sorts. 
 
 TL;DR:  GNU is based on the “Free Software” principle, in that it “respects user’ freedom…the development of GNU made it possible to use a computer without software that would trample your freedom”
+
 It’s important to note that “free software” is a drastically different idea to “open source software”. For sake of brevity, I will not include that in this post. If you are interested in learning more, please go [here](https://www.gnu.org/philosophy/open-source-misses-the-point.html) to read the differences. 
+
 The Linux kernel was created in 1991 by Linus Torvaids as a personal project with the goal to create a free operating system kernel. In the scheme of things, the Linux kernel, albeit an important component, is still a small part within the GNU system. Next time you use the term “linux”, I hope you remember that yes it’s accepted in everyday casual speech but the GNU aspect shouldn’t be lost to history. 
 
 [Linux Distribution Timeline](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Linux_Distribution_Timeline.svg/3020px-Linux_Distribution_Timeline.svg.png)
