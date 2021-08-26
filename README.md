@@ -7,7 +7,7 @@ I want to state I am a humble grunt in the world of ones and zeroes. Most of thi
 Additionally, this is written in my spare time. Therefore, you will definitely find gross acts of injustice done to the formal written English language. Spelling mistakes are just the beginning my friend. 
 
 Cheers,  
-Taos Mouse.
+Taos.
 
 ## Summary
 * [History](#history)
