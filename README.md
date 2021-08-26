@@ -41,7 +41,7 @@ This is what made it the default shell for Solaris OS. It is also used as the de
 
 #### WHAT IS A SHELL AND WHY DO WE NEED THEM? 
 
-Whenever a user logs in to the sytem or opens a console window, the kernel runs a new shell instance. The kernel is the heart of any operating system. 
+Whenever a user logs in to the system or opens a console window, the kernel runs a new shell instance. The kernel is the heart of any operating system. 
 
 It is responsible for the control management, and execution of processes, and to ensure proper utilization of system resources. 
 
