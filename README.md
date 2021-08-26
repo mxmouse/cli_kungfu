@@ -7,7 +7,7 @@ Additionally, this is written in my spare time. Therefore, you will definitely f
 
 Cheers,  
 Taos Mouse.
----
+
 ## Summary
 * [History](#history)
   * [GNU/Linux](#history-of-gnu-linux)
