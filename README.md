@@ -1,31 +1,35 @@
 
-# ⚡ Linux - Intro ⚡ d
+~~****# ⚡ GNU/Linux - Intro ⚡ 
 ![external-content duckduckgo com](https://media.giphy.com/media/Bak719jJB7mko/giphy.gif)
+###Note from the author:
+I want to state I am a humble grunt in the world of ones and zeroes. Most of this information is referenced from documents listed at the bottom of this post. I have simply coalesced it here to be used as a quick reference for a beginner. I am by no means an expert and still consider myself very much a beginner -- especially with the more I learn. If I have written something that doesn’t seem correct, don’t hesitate to let me know. This is mostly a technical post but like many things, the technical can also be political. 
+
+Additionally, this is written in my spare time. Therefore, you will definitely find gross acts of injustice done to the formal written English language. Spelling mistakes are just the beginning my friend. 
+
+Cheers,  
+Taos Mouse.
+
 ## Summary
 * [History](#history)
   * [GNU/Linux](#history-of-gnu-linux)
-  * [Root](#history-of-root)
-  * [Shell](#history-of-the-shell)
+* [Shell](#history-of-the-shell)
+* [Root](#what-does-it-mean-to-have-root)
 * [What is the command line?](#what-is-command-line)
 * [User groups and Root](#user-groups-and-root)
 
 ## HISTORY
 ---
 ### History of gnu linux
-Before we jump into the history of root, I wanted to highlight the impressive minds that manifested the GNU/Linux operating system and why GNU/Linux is a very important fixture for technoolgists and end users. Learning GNU/Linux is a step towards technological empowerment. 
 
-First, there is a some debate around what to call "Linux" vs GNU/Linux. "GNU/Linux" is technically the correct term because Linux is only the kernel of the GNU system -- albeit an important component.  Richard Stallman began developing GNU in 1983. He foresaw a need for users to have "free software". In fact, he believes that technologist, or "programmers, need to share, redistribute study and improve the software we write"
-If you want to read Stallman's [philosophy](https://www.gnu.org/philosophy/shouldbefree.en.html) (really a manifesto) behind GNU, you won't be disappointed. TL;DR - GNU is based on the "Free Software" principle, in that it "respects user' freedom...the development of GNU made it possible to use a computer without software that would trample your freedom"
+Before we jump into the history of root, I wanted to highlight an impressive mind that manifested the GNU/Linux operating system. It seems like many aspects of technology in contemporary life are seemingly political with machine learning being able to parse who can live where to racists algorithms. Although it can feel more political than ever, technology and technologists have always had a relationship with the political arena -- for better or worse. Cryptography comes to mind and for this blog, “open source” or “free software” perculates to the top. 
 
-Something to note is that "Free software" is different to "open source". If you want to read about the difference go [here](https://www.gnu.org/philosophy/open-source-misses-the-point.html) 
+Richard Stallman, the mind behind GNU/Linux began development in 1983. He was motivated by the notion of “free software”. He believed that technologists, or “programmers, need to share, redistribute, study and improve the software we write.” As we have moved into 2021 and still in the depths of Covid, a debate around open source and proprietary has become more tense. It’s the work of individuals like Stallman, that make it possible for users like myself to have some technological empowerment and not to be at the mercy of a corporation. I highly recommend reading Stallman's [philosophy](https://www.gnu.org/philosophy/shouldbefree.en.html) which is really a manifesto of sorts. 
 
-The Linux kernel was created in 1991 by Linus Torvaids as a personal project with the goal to create a free operating system kernel. 
+TL;DR:  GNU is based on the “Free Software” principle, in that it “respects user’ freedom…the development of GNU made it possible to use a computer without software that would trample your freedom”
+It’s important to note that “free software” is a drastically different idea to “open source software”. For sake of brevity, I will not include that in this post. If you are interested in learning more, please go [here](https://www.gnu.org/philosophy/open-source-misses-the-point.html) to read the differences. 
+The Linux kernel was created in 1991 by Linus Torvaids as a personal project with the goal to create a free operating system kernel. In the scheme of things, the Linux kernel, albeit an important component, is still a small part within the GNU system. Next time you use the term “linux”, I hope you remember that yes it’s accepted in everyday casual speech but the GNU aspect shouldn’t be lost to history. 
 
 [Linux Distribution Timeline](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Linux_Distribution_Timeline.svg/3020px-Linux_Distribution_Timeline.svg.png)
-
-### History of root
-- Root is omnipotent with unrestricted access to all commands, files, directories and resources
-- Root is the actual name of an admin account. 'sudo' is a command which allows ordinary users to perform admin tasks
 
 ### History of the Shell
 Shells are pivotal to the Linux user. There are different shells within Linux to accomplish tasks. Each shell has inuqie properties. Hence, there are many intances where oen shell is better than the other for specific requirements
@@ -102,6 +106,11 @@ Some noteworthy features of the z shell include:
 |C shell (csh) | /bin/csh | #| % |
 |Korn shell (ksh) | /bin/ksh| #| $|
 |Z Shell (zsh) | /bin/zsh | <hostname># | <hostname>% |
+
+### What does it mean to have root?
+- Root is omnipotent with unrestricted access to all commands, files, directories and resources
+- Root is the actual name of an admin account. 'sudo' is a command which allows ordinary users to perform admin tasks
+- When one has root within a system, they have access to the entire system. Therefore, among a certain crowd, gaining root is seen as the ultimate end game. As this is also where the most sensitive information can be modified. 
 
 ## What is the command line?
 A user interface that's navigated by typing commands at prompts, instead of using a mouse. (I stole this definition from duck duck go)
@@ -259,4 +268,4 @@ cut "delimieter" which is ":" and "field" 1
 * [History of linux](https://en.wikipedia.org/wiki/History_of_Linux)
 * [User Groups and Permissions in Linux](https://www.section.io/engineering-education/user-groups-and-permissions-linux/)
 * [Etc Passwd File](https://linuxize.com/post/etc-passwd-file/)
-* [Understanding the etc passwd file](https://www.geeksforgeeks.org/understanding-the-etc-passwd-file/)**
+* [Understanding the etc passwd file](https://www.geeksforgeeks.org/understanding-the-etc-passwd-file/)**~~****
